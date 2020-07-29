@@ -48,6 +48,7 @@ while x:
 
         if jugadaJugador2 == "si":
             durDelGlobo += 1
+            print("ESTADO DEL GLOBO:\n")
             # Condicionales del estado del globo y de quien gano
             if durDelGlobo == 20:
                 print("____~~~~~ <--- esto es un globo reventado")
